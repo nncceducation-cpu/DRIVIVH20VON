@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Stop iOS zooming the page when a number field is focused (PHVD tab) */
+input[data-numeric-input],
+input[type='date'] {
+  font-size: 16px;
+}
